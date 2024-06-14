@@ -230,8 +230,46 @@ ol {
   box-shadow: 0 0 8px rgba(255, 187, 0, 0.4);
 }
 
+.decrement-button {
+    margin: 0 auto;
+    font-size: 1rem;
+    background: none;
+    border: 2px solid #9f300b;
+    color: rgb(202, 19, 19);
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.5s, color 0.2s;
+    box-shadow: 0 0 8px rgba(165, 41, 10, 0.4);
+}
+
+.counter-value {
+  color: #111110;
+  font-size: 1.4rem;
+  padding: 0.5rem 1rem;
+}
+
+.counter-warring {
+  color: #8a2e09;
+  font-size: 1.4rem;
+  padding: 0.5rem 1rem;
+}
+
+.counter-reset {
+  margin: 0 auto;
+    font-size: 1rem;
+    background: none;
+    border: 2px solid #3a1503;
+    color: rgb(17, 17, 7);
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.5s, color 0.2s;
+    box-shadow: 0 0 8px rgba(165, 41, 10, 0.4);
+}
+
 #game-over button:hover {
-  background: #fcd256;
+  background: #05490f;
   color: #3f3b00;
   transform: scale(1.1);
   box-shadow: 0 0 20px rgba(255, 187, 0, 0.8);
