@@ -9,7 +9,6 @@ export default function Counter({ onOperation, warringMessage, counterValue }) {
       <p>
         <button
           style={{
-            backgroundColor: "none",
             marginRight: "10px",
             border: "2px solid #05490f",
             padding: "0.5rem 1rem",
@@ -18,6 +17,8 @@ export default function Counter({ onOperation, warringMessage, counterValue }) {
             cursor: "pointer",
             transition: "all 0.2s, color 0.2s",
             boxShadow: "0 0 8px rgba(255, 187, 0, 0.4)",
+            color: "rgb(12, 145, 5)",
+            background: "none",
           }}
           onClick={() => onOperation("increment")}
           disabled={counterValue > 10}

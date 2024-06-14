@@ -243,6 +243,20 @@ ol {
     box-shadow: 0 0 8px rgba(165, 41, 10, 0.4);
 }
 
+.increment-button {
+  margin: 0 auto;
+  font-size: 1rem;
+  background: none;
+  border: 2px solid #05490f;
+  color: rgb(12, 145, 5);
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.5s, color 0.2s;
+  box-shadow: 0 0 8px rgba(165, 41, 10, 0.4);
+  margin-right: 10px;
+}
+
 .counter-value {
   color: #111110;
   font-size: 1.4rem;
@@ -250,7 +264,7 @@ ol {
 }
 
 .counter-warring {
-  color: #8a2e09;
+  color: #6e1f02;
   font-size: 1.4rem;
   padding: 0.5rem 1rem;
 }
